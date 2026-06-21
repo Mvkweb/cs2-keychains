@@ -41,34 +41,57 @@ python3 server.py
 3. Click the **Inspect In-Game** button.
 4. Your coordinates are instantly copied to your clipboard: `!charm_set <x> <y> <z>`
 
+> [!NOTE]
+> **For Developers:** The `!charm_set` output is formatted for a custom chat command used on my specific CS2 server, rather than a public plugin. You can easily write your own server-side plugin to parse this exact chat format and apply the coordinates for your own testing!
+
 ---
 
 ## Common Placements
 
 Don't want to use the extractor? Here's a master list of common charm placements. 
 
-**Jump to Weapon:**
-- [Rifles](#rifles)
-  - [AK-47](#ak-47)
-  - [M4A1-S](#m4a1-s)
-
 ---
 
 ### Rifles
 
-#### AK-47
+<details>
+<summary><strong>AK-47</strong></summary>
+<br>
 
-##### Top UP
-![AK-47 Top UP](images/ak47-TopUP.png)
+#### Placement 1
+![Placement 1](images/ak47/1.png)
 
 - **X:** `24.32`
 - **Y:** `0.23`
 - **Z:** `4.08`
 > **Command:** `!charm_set 24.32 0.23 4.08`
 
-*(Add more placements here)*
+---
+
+#### Placement 2
+![Placement 2](images/ak47/2.png)
+
+- **X:** `19.20`
+- **Y:** `0.39`
+- **Z:** `3.49`
+> **Command:** `!charm_set 19.20 0.39 3.49`
 
 ---
 
-#### M4A1-S
+#### Placement 3
+![Placement 3](images/ak47/3.png)
+
+- **X:** `24.40`
+- **Y:** `0.23`
+- **Z:** `3.61`
+> **Command:** `!charm_set 24.40 0.23 3.61`
+
+</details>
+
+<details>
+<summary><strong>M4A1-S</strong></summary>
+<br>
+
 *(Add M4A1-S placements here)*
+
+</details>
